@@ -1,0 +1,55 @@
+@charset "utf-8";
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700');
+#wrapper{width:100%; position:relative; background:url(../img/main/bgBar.gif) repeat-x 0 0}
+#content-wrapper{width:100%; margin:0 auto; /* border:1px solid #f00; */ position:relative;overflow:hidden}
+h2{font-family:'Roboto Condensed', sans-serif; font-size:26px; font-weight:700; color:#242424;}
+/*skipNav*/
+#skipNav{position:relative;width:100%;overflow:hidden}
+#skipNav a{display:block; height:1px; margin-bottom:-1px;overflow:hidden; text-align:center; text-decoration:none; color:#fff; font-weight:bold;font-size:14px}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{display:block;height:auto;padding:5px 0; background:#21c0c0}
+
+header{width:1280px; margin:0 auto; position:relative; top:0; left:0; }
+header #topMenu{width:1280px; overflow:hidden; /*border:1px solid #90f;*/ }
+header #topMenu #topMenu_left{float:left; overflow:hidden;}
+header #topMenu #topMenu_left li{float:left; }
+/* header #topMenu #topMenu_left li:last-child{border-right:1px solid #f5f5f5;} */
+header #topMenu #topMenu_left li a{color:#f4f3f3; font-size:0.875rem; text-align:center; display:block; width:160px; height:30px; line-height:30px; }
+header #topMenu #topMenu_left li a:hover{background:#fff; border-radius:5px 5px 0 0; color:#242424;}
+header #topMenu #topMenu_left li a.click{background:#fff; border-radius:5px 5px 0 0; color:#242424;}
+header #topMenu #topMenu_right{float:right; overflow:hidden;}
+header #topMenu #topMenu_right li{float:left;}
+header #topMenu #topMenu_right li a{color:#f4f3f3; font-size:0.7rem; text-align:center; display:block; width:70px; height:30px; line-height:30px; }
+header #topMenu #topMenu_right li a:hover{color:#6ff3f3;}
+header #topMenu #topMenu_right li.on{color:#6ff3f3;}
+
+nav{position:absolute; top:30px; left:50%; margin-left: -640px; z-index:100; width:1280px; height:79px; overflow:hidden; background:rgba(255,255,255,0.9) url('../img/main/navBar.gif')repeat-x 0 77px; }
+nav h1{position:relative; z-index:2;float:left; vertical-align:middle; top:8px;}
+nav #navList{float:left; text-align:left; position:relative; z-index:1;padding:0 5px 5px 85px; width:614.5px; }
+nav #navList li{display:inline-block; cursor:pointer; vertical-align:top; text-align:center; margin-right:70px; margin-bottom:20px;}
+nav #navList li:last-child{margin-right:60px;}
+nav #navList li dl{font-family:'Roboto Condensed', sans-serif; color:#999;}
+nav #navList li dl dt{line-height:79px; padding-top:15px;margin-bottom:5px; font-size:18px;}
+nav #navList li dl dt a{color:#6f6f6f}
+nav #navList li dl dt a:hover{color:#21c0c0; border-bottom:1px solid #21c0c0; }
+nav #navList li dl dd{text-align:left;}
+nav #navList li dl dd a{padding-bottom:1.5px;font-size:17px;line-height:1.8; color:#5b5b5b; font-weight:300;}
+nav #navList li dl dd a:hover{border-bottom:1px solid #21c0c0; color:#21c0c0}
+nav #search{overflow:hidden; position:relative; float:right; top:39px; right:20px;}
+nav #search input{float:left; border:none; border-bottom:1px solid #242424; width:200px; height:22px;}
+nav #search .searchBox{float:left; display:block; background:#242424; width:77px; height:23px; border-radius:5px 5px 0 0;}
+nav #search .searchBox a{display:block; text-align:center; padding-top:3px; color: #f4f3f3;}
+nav #upCome{width:320px; position:absolute; top:99px; right:20px; text-align:center; font-family:"나눔고딕",arial;}
+nav #upCome dl dt{font-size:14px; color:#242424;}
+nav #upCome dl dd{margin-top:10px;font-size:12px; color:#6c6c6c; height:58px; overflow-y:scroll;}
+nav #upCome .btn{overflow:hidden; width:100%; height:32px;margin-top:10px;}
+nav #upCome .btn span{display:block;width:67px; height:32px; line-height:32px; background:#21c0c0; font-size:16px; font-weight:bold; color:#fff; cursor:pointer; }
+nav #upCome .btn span:hover{background:#94c4c4; }
+nav #upCome .btn .left{float:left;}
+nav #upCome .btn h4{float:left; width:186px; text-align:center; line-height:32px; background:#21c0c0; font-weight:normal; color:#fff; font-size:14px; }
+nav #upCome .btn .right{float:right;}
+
+footer{/*position:absolute; bottom:0;*/ margin-top:20px;width:100%; height:78px; clear:both; background:url('../img/main/footer_bg.gif')repeat-x;}
+footer address{width:1280px; margin:0 auto; color:#f4f3f3; padding:30px; box-sizing:border-box;}
+footer address p{display:inline-block; }
+footer address p:last-child{float:right; }

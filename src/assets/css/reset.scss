@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* reset */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+* {margin:0;padding:0;}
+ol,ul,li{list-style:none}
+a:link,a:visited{text-decoration:none;color:#000}
+a:hover,a:active{text-decoration:none;color:#000}
+address{font-style:normal}
+/*legend,caption{display:none}*/
+fieldset{border:none}
+body {font:normal 16px/1.5 "Roboto",'Nanum Gothic',arial,sans-serif;color:#333}
+header,nav,section,article,footer{display:block}
+table{border-collapse:collapse}
+img{vertical-align:bottom} /*img desening */
+.hidden{position:absolute;left:-1000%;top:0;width:1px;height:1px;overflow:hidden;color:#fff;}
+legend{display:none}

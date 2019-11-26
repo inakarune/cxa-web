@@ -1,0 +1,290 @@
+/*@charset "utf-8";*/
+@import './assets/css/reset.scss';
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+    }
+body {
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    }
+.wrap{width:100%;margin:0 auto}
+/* contents  */
+.cont .article h2{text-align:center;font-size:50px;font-family:'Roboto','namsanR',arial,sans-serif;font-weight:300;padding-top:130px;line-height:1}
+.cont .article h3{text-align:center;font-size:50px;font-weight:400}
+.cont .article h4{text-align:center;font-size:40px;font-weight:400;line-height:1.5}
+.cont .article .pWrap{width:85%;margin:0 auto}
+.cont .article p{text-align:left;font-size:17px;font-weight:300;letter-spacing:0.7px;line-height:1.7}
+.cont .article img{margin:74px auto;text-align:center}
+.cont .article .section{padding-top:37px;width:1280px;margin:0 auto}
+.cont .article .section img.resizing{width:90%}
+
+/* header  */
+.headerWrap{width:100%;position:fixed;top:0;z-index:10;background:rgba(255,255,255,.8);transition:all 0.5s}
+.header{width:1280px;height:100px;margin:0 auto;overflow:hidden;}
+.header h1{text-indent:-9999px;width:99px;height:38px;background:url('./assets/img/logo.png') no-repeat;float:left;margin:56px 0 0 10px}
+.header h1 a{display:block}
+.header .joinUs{float:right}
+.header .joinUs a{display:block;width:40px;height:46px;background-image:url('./assets/img/joinIcon.png');background-repeat:no-repeat;background-position:center;text-indent:-9999px;background-size:contain;margin:43px 15px 0;transition:all 0.5s}
+.header .joinUs a:hover{background-image:url('./assets/img/joinIcon_hover.png')}
+.header .navWrap{float:right}
+.header .navWrap .menuImg{display:none}
+.header .nav{overflow:hidden;margin-top:70px;height:80px}
+.header .nav li{float:left}
+.header .nav li a{display:block;text-align:right;margin:5px 0 2px 0;padding:0 19px;font-size:18px;color:#0d1c3d;line-height:1;transition:all 0.5s}
+.header .nav li:nth-child(6){display:none}
+.header .nav li:nth-child(6) a{color:#666}
+.header .nav li a:hover{margin-top:0}
+.header .nav li a.on{margin-top:0;color:#355aa9;border-bottom:5px solid rgb(53, 90, 169)}
+
+
+
+/* ytMovie(youtube) */
+.wrap .cont .youtubeWrap .ytMovie{position:relative;margin-top:100px;margin-top:74px;width:100%;height:640px;overflow:hidden}
+.cont .youtubeWrap .ytMovie video{object-fit:cover;width:100%;height:640px}
+
+/* content */
+.cont{margin-top:123px;text-align:center}
+.cont .article{margin:74px auto 0;}
+
+/* article1 > section1 */
+.cont .article .section.sect1{width:1280px;overflow:hidden;margin:74px auto 0;padding-top:0}
+.section.sect1 .phoneImg{width:815px;float:left}
+.section.sect1 .aboutCXA{position:relative;width:465px;height:340px;overflow:hidden;text-align:left;float:left;top:130px}
+.section.sect1 .aboutCXA h3{font-size:40px;color:#355aa9;font-family:'Noto Sans','namsanR',arial,sans-serif;font-weight:600;line-height:59px;border-bottom:7px solid #355aa9;text-align:left}
+.section.sect1 .aboutCXA .sliders{position:relative;width:465px;height:270px}
+.section.sect1 .aboutCXA .sliders div{position:absolute;z-index:1;display:none}
+.section.sect1 .aboutCXA .sliders div.active{display:block}
+.section.sect1 .aboutCXA div p{font-size:50px;color:#666;line-height:1.3}
+.section.sect1 .aboutCXA .info1{margin-top:10px}
+.section.sect1 .aboutCXA p .c1{color:#355AA9}
+.section.sect1 .aboutCXA p .c2{color:#388EA2}
+.section.sect1 .aboutCXA p .c3{color:#3BBF9C}
+.section.sect1 .aboutCXA div p{width:100%}
+.section.sect1 .aboutCXA .info1 .smaller{font-size:40px}
+
+/* article1 > section2 */
+.cont .article .section.sect2,.cont .article .section.sect4,.cont #article4 .sectBlueBG{background:#0d1c3d;padding-top:0;width:100%}
+#article4 .sectBlueBG h3{padding-top:0}
+
+.cont .article .section.sect2 .imgs{background-image:url('./assets/img/arti1_section2_graph1.png');background-repeat:no-repeat;height:622px;}
+.cont .sectBlueBG{width:1280px;margin:30px auto;padding-top:30px;color:#fff}
+/* article1 > section3 */
+.cont #article1 .section.sect3{margin-top:37px}
+.section.sect3 img.borderTop{border-top:1px solid #aaa;padding-top:74px}
+/* article1 > section4 */
+.section.sect4 .pWrap{margin-top:40px}
+/* article1 > ytMovie */
+.cont .ytMovie.mv2{margin-top:0}
+
+.cont #article2 .sect5 .resizingPx{width:550px}
+.cont #article2 h3{border-top:1px solid #ccc;width:90%;margin:0 auto;padding-top:37px}
+.cont #article2 .sect5{padding-top:0}
+.cont #article2 .sect5 h3.noLine{border:0;padding-top:0}
+.cont #article2 .sect6 h4{margin-top:74px}
+.cont #article2 .resizing{width:800px;margin:74px auto}
+.cont #article2 .resizing2{width:700px;margin:74px auto}
+.cont #article2 .resizing img{width:100%;margin:0}
+
+.cont #article3.roadmap h3{border-top:1px solid #ccc;width:80%;margin:0 auto;padding:30px 0}
+.cont #article3 h4{border-top:1px solid #ccc;width:80%;margin:0 auto;padding-top:20px}
+.cont #article3 .pWrap{width:90%}
+.cont #article3 .pWrap p{width:80%;margin:37px auto}
+.cont #article3 .resizing{width:950px;margin:74px auto}
+.cont #article3 .resizing img{width:100%;margin:0}
+.cont #article3.roadmap .twins{width:500px}
+.cont #article3 .twins1{margin-right:50px;width:40%;}
+
+.cont #article4 .partner{overflow:hidden}
+.cont #article4 .partner img{border:1px solid #fff}
+.cont #article4 .contactUs p{width:1280px;font-size:30px;text-align:left;margin:74px auto;font-weight:400}
+
+.cont #article4 .contactUs form{width:1280px;margin:0 auto;overflow:hidden;text-transform:capitalize}
+.cont #article4 .contactUs form label{font-size:19px;border-bottom:10px solid #355aa9;font-weight:300;color:#666} 
+.cont #article4 .contactUs form input,.contactUs form textarea{font-family:'Roboto','namsanR',Arial, Helvetica, sans-serif;font-size:17px;color:#333;border:1px solid #aaa;padding:5px 0;text-indent:10px}
+.cont #article4 .contactUs form label#lastName{width:247px;}
+.cont #article4 .contactUs form textarea{width:83.6%;height:150px;margin:20px auto 0;display:block;}
+.cont #article4 .contactUs fieldset{width:83.6%;margin:0 auto}
+.cont #article4 .contactUs fieldset div{float:left;margin-right:5%;text-align:left}
+.cont #article4 .contactUs fieldset .box3{width:58%;margin-right:0}
+.cont #article4 .contactUs fieldset div label{display:block;width:100%}
+.cont #article4 .contactUs fieldset div input{width:100%;margin-top:10px}
+.cont #article4 .contactUs fieldset .box2 label{border-bottom:10px solid #388EA2}
+.cont #article4 .contactUs fieldset .box3 label{border-bottom:10px solid #3BBF9C}
+
+.cont #article4 .contactUs form>label{width:83.6%;display:block;text-align:left;margin:37px auto 0;border:0}
+.cont #article4 .contactUs form .line{width:83.6%;margin:0 auto;height:10px;background:linear-gradient(-90deg,#3BBF9C,#355AA9);}
+
+.cont #article4 .contactUs form button{width:13%;height:66px;border:0;background:#355AA9;color:#fff;font-size:25px;margin-top:74px;text-transform:capitalize;cursor:pointer}
+
+.footerWrap{width:100%;background:#355AA9;}
+.footerWrap .footer{width:1280px;margin:0 auto 0;padding:37px 0;color:#fff;position:relative;text-align:left;letter-spacing:1px}
+.footerWrap .footer h2 a{display:block;width:150px;height:70px;text-indent:-9999px;background:url(./assets/img/logo2.png) no-repeat;}
+.footerWrap .footer div>p{font-size:18px;padding:20px 10px 0;}
+.footerWrap .footer>p{font-size:13px;margin-top:20px}
+.footerWrap .footer .links a{display:block;width:0px;height:0px;background-size:contain;background-repeat:no-repeat;text-indent:-9999px;width:30%;background-position:center}
+.footerWrap .footer .links a:nth-of-type(1){background-image:url('./assets/img/links_iconA.png');float:middle;border-right:0px solid #fff}
+
+
+/* login */
+form button{border:0}
+.markLogo{margin:20px;width:400px}
+.joinWrap{width:530px;margin:100px auto 0;text-align:center}
+.joinWrap h1{text-align:center}
+.joinWrap h1 a{display:block;text-indent:-9999px;background:url(./assets/img/join_logo.jpg) no-repeat center;width:262px;height:103px;text-align:center;margin:0 auto;background-size:contain}
+.joinWrap h2{font-size:50px;font-weight:100;text-transform:capitalize;line-height:1.7;margin:50px 0 0;color:#555}
+.joinWrap .h2Wrap .grLine{display:block;height:10px;background:linear-gradient(-90deg,#355AA9,#3BBF9C);}
+.joinWrap form{width:100%;margin-top:17px;text-transform:capitalize}
+.joinWrap form div{position:relative;}
+.joinWrap form label{position:absolute;font-size:20px;color:#333;top:5px;left:10px;transition:all 0.5s}
+.joinWrap form input{display:block;width:100%;border:0;border-bottom:7px solid #ccc;line-height:2;font-size:20px;color:#333;margin-top:20px;text-indent:100px;transition:all 0.5s}
+.joinWrap form input:focus+label{top:-10px;color:#666}
+.joinWrap form input:valid{border-bottom:7px solid #3BBF9C}
+.joinWrap form button{display:block;margin:74px auto 0;text-transform:capitalize;width:155px;height:64px;text-align:center;background:#355AA9;color:#fff;font-size:25px;cursor:pointer}
+.joinWrap .goToSignup{margin:20px 0;font-size:20px;color:#666;text-align:center;line-height:1.5}
+.joinWrap .goToSignup a{color:#388EA2;font-size:25px}
+
+/* media query */
+/* 1200px */
+@media (max-width:1280px) and (min-width:1200px){
+    .header{width:100%}
+    .cont .article .pWrap{width:100%}
+    .cont .article .section{width:1200px}
+    .cont .sectBlueBG{width:1200px;margin:0 auto}
+    .cont .article .section.sect1{width:1200px}
+    .cont #article4 .contactUs form{width:1200px}
+    .section.sect1 .phoneImg{width:66%}
+    .cont .article .sect1 img{height:511px}
+    .section.sect1 .aboutCXA{width:34%}
+    .cont .article .section.sect2,.cont .article .section.sect4,.cont #article4 .sectBlueBG{width:100%}
+    .cont .article .section.sect3 img{width:98%}
+    .cont #article4 .contactUs fieldset .box3{width:49%}
+    .footerWrap .footer{width:1200px}
+    .footerWrap .footer p{width:90%;margin:0 auto}
+    
+}
+
+/* 768px */
+@media (max-width:1199px) and (min-width:768px){
+    .header{width:100%}
+    .cont .article{margin:50px auto 0}
+    .cont .article p{text-align:left}
+    .cont .article h2{font-size:40px}
+    .cont .article h3{font-size:40px}
+    .cont .article h4{font-size:30px;line-height:1.3}
+    .cont .article .pWrap{width:100%}
+    .cont .article .section{width:85%}
+    .wrap .cont .youtubeWrap .ytMovie{margin:60px 0}
+    .cont .sectBlueBG{width:85%;margin:0 auto}
+    .cont .article .section.sect1{width:85%}
+    .cont .article .sect1 img{width:85%}
+    .section.sect1 .phoneImg{width:100%;float:none}
+    .section.sect1 .aboutCXA{width:100%;top:0}
+    .section.sect1 .aboutCXA div p{font-size:40px}
+    .section.sect1 .aboutCXA div p span{font-size:45px}
+    .section.sect2 img:nth-of-type(1){width:494px}
+    .section.sect2 img:nth-of-type(2){width:70%}
+    .section.sect3 img{width:100%}
+    .section.sect4 img{width:90%}
+    .cont #article2 .resizing{width:90%}
+    .cont #article2 .resizing2{width:70%}
+    .cont #article2 .sect5 .resizingPx{width:60%}
+    .cont #article3 .pWrap{width:100%}
+    .cont #article3 .resizing{width:90%}
+    .cont #article3 .resizing img{width:82%}
+    .cont #article3>img{width:39%}
+    .cont #article3.roadmap .twins{width:40%}
+    .cont #article4 div.contactUs{width:100%}
+    .cont #article4 .contactUs form{width:90%}
+    .cont #article4 .contactUs p{width:90%}
+    .cont #article4 .contactUs fieldset .box3{width:41%}
+    .footerWrap .footer{width:100%}
+    .footerWrap .footer h2{margin-bottom:20px}
+    .footerWrap .footer p{width:90%;margin:10px auto 0}
+    .footerWrap .footer div p{font-size:17px;font-weight:600}
+    .footerWrap .footer div .links{width:20%}
+    .cont .article .section.sect2,.cont .article .section.sect4,.cont #article4 .sectBlueBG{width:100%}
+
+}
+
+/* 360px */
+@media (max-width:767px){
+    .header{width:100%;height:71px;position:relative;transition:all 0.3s}
+    .header.on{height:426px}
+    .header h1{margin:18.5px 0 0 10px;float:none;position:relative;z-index:30;top:0;left:0}
+    .header .joinUs{float:none;display:none}
+    .header .navWrap{float:none;position:absolute;width:100%;transition:all 0.3s;top:0;right:0}
+    .header .navWrap.on{height:auto}
+    .header .navWrap .menuImg{display:block;width:40px;height:40px;background:url(./assets/img/hamburger_menu.png) no-repeat;background-size:contain;float:right;margin:14px 14px 0 0;cursor:pointer}
+    .header .nav{position:absolute;overflow:auto;background-color:#fff;margin-top:0;transition:all 0.3s;z-index:50;width:100%;top:70px;height:auto;border-bottom:1px solid #355AA9}
+    .header .nav li{float:none;text-align:center;}
+    .header .nav li:first-child{border-top:1px solid #355AA9}
+    .header .nav li a{line-height:3;margin:0 auto;text-align:center;width:80%;border-bottom:5px solid #fff}
+    .header .nav li:nth-child(6){display:block}
+    .cont{text-align:left}
+    .cont .article p{width:99%;font-size:16px;text-align:center}
+    .cont .article h2{font-size:30px}
+    .cont .article h3{font-size:30px}
+    .cont .article h4{font-size:25px;line-height:1.3}
+    .cont .article .pWrap{width:100%}
+    .cont .article .section{width:90%;padding-top:37px;margin:37px auto 0}
+    .cont .article img{margin:37px auto;width:100%}
+    .wrap .cont .youtubeWrap .ytMovie{margin:60px 0;height:250px}
+    .cont .youtubeWrap .ytMovie video{height:250px}
+    .cont .sectBlueBG{width:90%;margin:0 auto;padding-top:60px}
+    .cont .article .section.sect1{width:85%;margin-top:60px}
+    .cont .article .sect1 img{width:100%}
+    .section.sect1 .phoneImg{width:100%;float:none}
+    .section.sect1 .aboutCXA{width:100%;top:0;height:250px}
+    .section.sect1 .aboutCXA h3{font-size:30px;border-bottom:4px solid #355aa9}
+    .section.sect1 .aboutCXA .sliders{width:100%;height:270px}
+    .section.sect1 .aboutCXA div p{font-size:30px;text-align:left}
+    .section.sect1 .aboutCXA div p span{font-size:35px}
+    .section.sect1 .aboutCXA .sliders .smaller{font-size:30px}
+    .section.sect2 img:nth-of-type(1){width:100%}
+    .section.sect2 img:nth-of-type(2){width:100%}
+    .section.sect4 img{width:100%}
+    .cont #article1 h2{text-align:center;font-size:35px;padding-top:60px;line-height:1.5}
+    .cont #article2 .sect5 .resizingPx{width:100%}
+    .cont #article2 .resizing{width:100%}
+    .cont #article2 .resizing2{width:100%}
+    .cont #article3{width:90%;text-align:center}
+    .cont #article3 .pWrap p{width:100%;text-align:center}
+    .cont #article3 .resizing{width:100%;text-align:center}
+    .cont #article3 .resizing img{width:100%}
+    .cont #article3.roadmap .twins{width:100%}
+    .cont #article3.roadmap .twins1{margin-right:0}
+    .cont #article3>img:nth-of-type(1){width:100%;margin:0}
+    .cont #article4 .contactUs form{width:90%;text-align:center}
+    .cont #article4 .sectBlueBG{text-align:center}
+    .cont #article4 .contactUs p{width:90%}
+    .cont #article4 .contactUs form{margin:37px auto}
+    .cont #article4 .contactUs p{margin:37px auto}
+    .cont #article4 .contactUs form>label{margin:27px auto 0}
+    .cont #article4 .contactUs fieldset div{float:none;margin:0}
+    .cont #article4 .contactUs fieldset .box1{float:left;width:49%}
+    .cont #article4 .contactUs fieldset .box2{width:49%;float:right}
+    .cont #article4 .contactUs fieldset .box3{width:100%;padding-top:110px}
+    .cont #article4 .contactUs form button{width:auto;margin-top:37px;padding:10px;font-size:20px;height:50px}
+    .footerWrap .footer{width:100%;margin-top:74px}
+    .footerWrap .footer h2{margin-bottom:20px}
+    .footerWrap .footer p{width:90%;margin:0 auto;text-align:center}
+    .footerWrap .footer>p{margin-top:20px}
+    .footerWrap .footer div p{font-size:17px;text-align:left;padding:10px 0}
+    .footerWrap .footer .links{width:100%;position:static;margin:0 auto;border-top:0px solid #fff;border-bottom:0px solid #fff}
+    .cont .article .section.sect2,.cont .article .section.sect4,.cont #article4 .sectBlueBG{width:100%}
+
+    /* join (login / sign up) */
+    .markLogo{width:50%}
+    .joinWrap{width:80%;margin-top:60px}
+    .joinWrap h2{font-size:30px}
+    .joinWrap .h2Wrap .grLine{height:7px}
+    .joinWrap form label{font-size:18px}
+    .joinWrap form input{border-bottom:5px solid #ccc}
+    .joinWrap form input:valid{border-bottom:5px solid #3BBF9C}
+}
